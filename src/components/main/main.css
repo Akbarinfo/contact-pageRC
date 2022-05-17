@@ -1,0 +1,9 @@
+.contact__boxs {
+  display: flex;
+}
+
+.contact__main {
+  width: 50%;
+  height: 100vh;
+  border-right: 1px solid rgba(0, 0, 0, 0.521);
+}

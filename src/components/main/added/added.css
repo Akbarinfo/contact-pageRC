@@ -1,0 +1,50 @@
+.contact__boxinput {
+  padding: 15px 30px;
+}
+
+.contact__label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact__input {
+  display: block;
+  width: 70%;
+  border: none;
+  border-radius: 4px;
+  box-shadow: #00000059 0px 5px 15px;
+  font-size: 16px;
+  color: #0c0c0ca1;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.contact__input:hover {
+  outline: none;
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+.contact__select {
+  width: 50%;
+  display: block;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: #00000059 0px 5px 15px;
+  font-size: 16px;
+  color: #0c0c0ca1;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.contact__submit {
+  display: inline-block;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #fff;
+  padding: 15px 25px;
+}

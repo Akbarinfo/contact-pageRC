@@ -1,0 +1,11 @@
+.contact__header {
+  background-color: green;
+  padding: 10px 15px;
+}
+
+.contact__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin: 12px;
+}

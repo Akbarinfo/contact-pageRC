@@ -1,0 +1,84 @@
+.contact__list {
+  list-style-type: none;
+  padding: 20px 30px;
+}
+
+.contact__item {
+  width: 70%;
+  position: relative;
+  border-bottom: 1px solid #00000059;
+  font-size: 18px;
+  color: #0c0c0ca1;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+
+}
+
+.contact__text {
+  width: 70%;
+  border-bottom: 1px solid #00000059;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #0c0c0ca1;
+  padding: 15px 10px
+}
+
+.contact__text:last-child {
+  border-bottom: none;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contact__tel {
+  background-color: green;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+}
+
+.contact__buttonbox {
+  width: 70%;
+  display: flex;
+  border-bottom: 1px solid #00000059;
+  padding: 20px 15px;
+  margin-left: 10px;
+}
+
+.contact__btn {
+  background-color: transparent;
+  border: 1px solid green;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: green;
+  cursor: pointer;
+  padding: 12px 25px;
+  margin-right: 15px;
+}
+
+.contact__span {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00000059;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.contact__cate {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #00000059;
+  margin-bottom: 10px;
+}
+
+
+.bxs-phone-call {
+position: relative;
+top: 2px;
+}
