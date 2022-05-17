@@ -25,6 +25,7 @@ export default function Added(props) {
           <label className="contact__label" htmlFor="select">
             <span className="contact__span">Category</span>
             <select className="contact__select" onChange={props.types} name="contact-cat" id="contact-cat">
+              <option selected>Category</option>
               <option value="family">Family</option>
               <option value="friends">Friends</option>
               <option value="colleague">Colleague</option>

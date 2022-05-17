@@ -5,7 +5,7 @@ import './output.css'
 
 
 export default function Output(props) {
-  let btnId = ['All', 'Family', 'Friends','Colleague',]
+  let btnId = ['all', 'family', 'friends','colleague',]
   return(
     <div className="contact__main">
       <Header text="Contact list

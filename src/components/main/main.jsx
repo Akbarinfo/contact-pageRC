@@ -65,7 +65,7 @@ class Main extends Component {
     let onSubmit = (e) => {
       e.preventDefault();
       this.setState({
-        listContactArr: [...this.state.listContactArr, {...this.state.listObj}]
+        listContactArr: [...this.state.userContact, {...this.state.listObj}]
       })
 
       this.setState({
@@ -79,27 +79,23 @@ class Main extends Component {
     let sort = (e) => {
       const ids = e.target.id
       const users = this.state.userContact
-      console.log(this.state.userContact)
+      const btnIds = ['all', 'family', 'friends','colleague',]
 
-      users.map((item) => {
-        if(ids === item.categores) {
-          // console.log(item)
-          this.setState({
-            listContactArr: [this.state.listContactArr = item]
+      btnIds.map(cat => {
+        if(ids === cat) {
+          let userArr = []
+          users.map(item => {
+            if(item.categores === ids) {
+              userArr.push(item)
+            }
           })
+          this.setState({listContactArr: [...userArr]})
         }
-        if(ids === 'All') {
-          // console.log(item)
-          // console.log(this.state.userContact)
-          this.setState({
-            listContactArr: [this.state.listContactArr, ...this.state.userContact]
-          })
-        }
-    })
+      })
 
-    // console.log(this.state.listContactArr)
-
-
+      if(ids === 'all') {
+        this.setState({listContactArr: [...this.state.userContact]})
+      }
     }
     return (
           <section className="contact">
